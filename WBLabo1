@@ -1,31 +1,31 @@
 WBLabo1
 =======
-6. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
+6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
 
 ```sh
  wykonano.txt
 split 
 ```
-7. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
+7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
 
 ```sh
 cd logo
 cp 
 ```
-8. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
+8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
 
 ```sh
 cd dokumenty
 
 ```
-9. Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
+9\. Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
 
 ```sh
 cd wazne-sprawy
 diff wykonano.txt odtworzono.txt
 ```
 
-10. Wyświetl kalendarz na październik 2009 r. (cal)
+10\. Wyświetl kalendarz na październik 2009 r. (cal)
 
 ```sh
 cal -m 10 2009
@@ -51,7 +51,7 @@ cal -3 11 2009 | cut -c 1-43
 ```
 
 
-11. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
+11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
 
 ```sh
 date +%A -d '1975-05-25'
