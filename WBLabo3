@@ -1,0 +1,56 @@
+BLabo3
+=======
+Wyświetl plik /etc/passwd z podziałem na strony przyjmując, że strona na 5 linii tekstu. (raczej more niż less)
+
+```sh
+more -5 /etc/passwd
+```
+
+Korzystając z polecenia cat utwórz plik tekst3.txt, który będzie składał się z zawartości pliku tekst1.txt, ciągu znaków podanego ze standardowego wejścia (klawiatury) i pliku tekst2.txt.
+
+```sh
+touch tekst3.txt
+cat tekst1.txt - tekst2.txt > tekst3.txt
+```
+
+Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w taki sposób, aby nie były wyświetlane ich nazwy.
+
+```sh
+
+```
+
+Wyświetl linie o numerach 3, 4 i 5 z pliku /etc/passwd.
+
+```sh
+
+```
+
+Wyświetl linie o numerach 7, 6 i 5 od końca pliku /etc/passwd.
+
+```sh
+
+```
+
+Wyświetl zawartość pliku /etc/passwd w jednej linii.
+
+```sh
+
+```
+
+Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
+
+```sh
+
+```
+
+Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
+
+```sh
+
+```
+
+Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd.
+
+```sh
+
+```
