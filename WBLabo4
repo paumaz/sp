@@ -9,7 +9,7 @@ WBLabo4
 
 ```sh
 
-ls | tr 'a-z' 'A-Z'
+ls -1F | sed -e '/[/]/d' | tr 'a-z' 'A-Z'
 
 ```
 
