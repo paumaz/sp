@@ -17,7 +17,7 @@ ls -1F | sed -e '/[/]/d' | tr 'a-z' 'A-Z'
 
 ```sh
 
- ls -l | tr -s " " | cut -f 1,5,9 -d " " |tr " " "\t"
+ ls -goF --full-time | tr -s " " | cut -f 1,3,7 -d " " | sed -e '/[/]/d' | tr " " "\t"
 
 
 ```
