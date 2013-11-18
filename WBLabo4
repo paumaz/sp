@@ -35,7 +35,7 @@ ls -1hlS | sed -e '/^d/d' | tr -s " " | cut -f 5,9 -d " " | tac | tr " " "\t"
 
 ```sh
 
-sort -n -k 3 -t : /etc/passwd | less
+cat /etc/passwd | sort -t ":" -k 3 -nr | head
 
 ```
 
@@ -53,7 +53,7 @@ sort -n -k 3 -t : /etc/passwd | sort -ns -k 4 -t : | more
 
 ```sh
 
-find $HOME -not -type d| wc -l
+find / -printf "%m\n" | sort | uniq -c
 
 
 ```
