@@ -27,7 +27,7 @@ ls -1F | sed -e '/[/]/d' | tr 'a-z' 'A-Z'
 
 ```sh
 
-ls -S
+ls -1lS
 
 ```
 
